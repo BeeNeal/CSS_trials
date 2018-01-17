@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Mixing and Matching</title>
+    <style>
+        .rectangle {
+            width: 355px;
+            height: 200px;
+        }
+
+        #red-box {
+            background-color: red
+        }
+
+        #blue-box {
+            background-color: blue
+        }
+
+        .black-box{
+            background-color: black;
+            width: 100px;
+            height: 100px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            margin-left: 50px;
+
+
+        }
+        .inline{
+            display: inline-block;
+        }
+
+        .left {
+            margin-right: 0px
+        }
+
+        .right {
+            margin-right: 50px
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="rectangle" id="red-box">
+        <div class="inline black-box left"></div>
+        <div class="inline black-box right"></div>
+    </div>
+
+    <div class="rectangle" id="blue-box">
+        <div class="inline black-box left"></div>
+        <div class="inline black-box right"></div>
+    </div>
+
+</body>
+</html>
